@@ -1,7 +1,7 @@
 ﻿<Window x:Class="PNEditorSimulateView.PNtoTeXSettings"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Convert Petri Net to LaTeX" Height="600" Width="610"  MinWidth="610" MaxWidth="610" MinHeight="600" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Icon="images/Carassius.ico" ShowInTaskbar="False">
+        Title="Convert Petri Net to LaTeX" Height="600" Width="610"  MinWidth="610" MaxWidth="610" MinHeight="600" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Icon="../images/Carassius.ico" ShowInTaskbar="False">
     <Grid Background="Gainsboro" Margin="0" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="150"/>

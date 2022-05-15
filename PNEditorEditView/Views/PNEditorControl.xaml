@@ -14,7 +14,7 @@
                         <Menu Name="menuMainMenu" VerticalAlignment="Center" IsMainMenu="True" DataContext="{Binding}" Margin="0">
                             <MenuItem Name="menuMainSection"  FontFamily="Levenim MT">
                                 <MenuItem.Header>
-                                    <Image Source="images/Carassius-Logo-Mini-42.png" Height="33" Width="33" />
+                                    <Image Source="../images/Carassius-Logo-Mini-42.png" Height="33" Width="33" />
                                 </MenuItem.Header>
                                 <MenuItem Name="menuNew" Header="New" FontSize="10" Click="MenuNew_Click" />
                                 <MenuItem Name="menuOpen" Header="Open" FontSize="10" />
@@ -26,7 +26,7 @@
                                 <MenuItem Name="menuMakeTeX" Header="Export as a LaTeX code" FontSize="10" />
                                 <MenuItem Name="menuAbout" Header="About" FontSize="10" >
                                     <MenuItem.Icon>
-                                        <Image Source="images/Carassius-Logo-Mini-42.png" Width="18" Height="18" />
+                                        <Image Source="../images/Carassius-Logo-Mini-42.png" Width="18" Height="18" />
                                     </MenuItem.Icon>
                                 </MenuItem>
                             </MenuItem>
@@ -41,31 +41,31 @@
                     <StackPanel Name="pnlEditPanel" Orientation="Horizontal" Margin="3">
                         <Button Name="btnSelect" Height="30" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Width="30" Click="btnSelect_Click" ToolTip="Select">
                             <StackPanel>
-                                <Image Source="images/cursor_4780.png" Height="20" Width="20" />
+                                <Image Source="../images/cursor_4780.png" Height="20" Width="20" />
                             </StackPanel>
                         </Button>
                         <Button Name="btnDelete" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Click="btnDelete_Click" ToolTip="Delete selected figures">
                             <StackPanel>
-                                <Image Source="images/delete_1483.png" Height="20" Width="20" Margin="0"/>
+                                <Image Source="../images/delete_1483.png" Height="20" Width="20" Margin="0"/>
                             </StackPanel>
                         </Button>
 
                         <StackPanel Orientation="Horizontal"/>
                         <Button Name="btnClearWorkingField" Margin="0,0,5,0" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Click="btnClearWorkingField_Click" ToolTip="Clear the model">
                             <StackPanel>
-                                <Image Source="images/edit-clear.png" Height="25" Width="25" />
+                                <Image Source="../images/edit-clear.png" Height="25" Width="25" />
                             </StackPanel>
                         </Button>
 
                         <Separator/>
                         <Button Name="btnUndo" HorizontalAlignment="Left" Margin="0" IsEnabled="False" VerticalAlignment="Top" Width="30" Height="30" Click="btnUndo_Click" ToolTip="Undo">
                             <StackPanel>
-                                <Image Source="images/undo_2681.png" Height="20" Width="20" Margin="0" />
+                                <Image Source="../images/undo_2681.png" Height="20" Width="20" Margin="0" />
                             </StackPanel>
                         </Button>
                         <Button Name="btnRedo" HorizontalAlignment="Left" IsEnabled="False" VerticalAlignment="Top" Width="30" Height="30" Click="btnRedo_Click" Margin="0,0,5,0" ToolTip="Redo">
                             <StackPanel>
-                                <Image Source="images/redo_3882.png" Height="20" Width="20" Margin="0" />
+                                <Image Source="../images/redo_3882.png" Height="20" Width="20" Margin="0" />
                             </StackPanel>
                         </Button>
 
@@ -73,17 +73,17 @@
 
                         <Button Name="btnCut" HorizontalAlignment="Left" Margin="0" Width="30" Height="30" VerticalAlignment="Top" Click="btnCut_Click" ToolTip="Cut">
                             <StackPanel>
-                                <Image Source="images/btn-cut.png" Height="20" Width="20" Margin="0"/>
+                                <Image Source="../images/btn-cut.png" Height="20" Width="20" Margin="0"/>
                             </StackPanel>
                         </Button>
                         <Button Name="btnCopy" HorizontalAlignment="Left" Width="30" Height="30" VerticalAlignment="Top" Click="btnCopy_Click" ToolTip="Copy">
                             <StackPanel>
-                                <Image Source="images/btn-copy.png" Height="20" Width="20" Margin="0"/>
+                                <Image Source="../images/btn-copy.png" Height="20" Width="20" Margin="0"/>
                             </StackPanel>
                         </Button>
                         <Button Name="btnPaste" VerticalAlignment="Top" HorizontalAlignment="Left" Width="30" Height="30" Click="btnPaste_Click" ToolTip="Paste" Margin="0,0,5,0">
                             <StackPanel>
-                                <Image Source="images/btn-paste.png" Height="20" Width="20" Margin="0"/>
+                                <Image Source="../images/btn-paste.png" Height="20" Width="20" Margin="0"/>
                             </StackPanel>
                         </Button>
 
@@ -91,7 +91,7 @@
 
                         <Button Name="btnSaveToPng" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="30" Click="btnSaveToPng_Click" ToolTip="Save as an image (*.png)" Margin="0,0,5,0">
                             <StackPanel>
-                                <Image Source="images/pngimage_8480.png" Height="20" Width="20" />
+                                <Image Source="../images/pngimage_8480.png" Height="20" Width="20" />
                             </StackPanel>
                         </Button>
 
@@ -101,12 +101,12 @@
                         <StackPanel Orientation="Horizontal">
                             <Button HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Name="btnZoomMinus" Width="30" Height="30" Click="btnZoomMinus_Click" ToolTip="Zoom out">
                                 <StackPanel>
-                                    <Image Source="images/minus.png" Width="20" Height="20"/>
+                                    <Image Source="../images/minus.png" Width="20" Height="20"/>
                                 </StackPanel>
                             </Button>
                             <Button HorizontalAlignment="Left" Margin="0" Name="btnZoomPlus" VerticalAlignment="Top" Width="30" Height="30" Click="btnZoomPlus_Click" ToolTip="Zoom in">
                                 <StackPanel>
-                                    <Image Source="images/plus.png" Width="20" Height="20" />
+                                    <Image Source="../images/plus.png" Width="20" Height="20" />
                                 </StackPanel>
                             </Button>
                         </StackPanel>
@@ -118,12 +118,12 @@
 
                         <Button Name="btnShowHideLabels" Height="49" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49" Click="btnShowHideLabels_Click" FontFamily="Candara" IsEnabled="False" ToolTip="Hide/show labels on the model">
                             <StackPanel>
-                                <Image Source="images/hideLabels.png" Height="38" Width="38" Margin="0"/>
+                                <Image Source="../images/hideLabels.png" Height="38" Width="38" Margin="0"/>
                             </StackPanel>
                         </Button>
                         <Button Height="49" Margin="0,0,5,0" HorizontalAlignment="Left" Name="btnGrid" VerticalAlignment="Top" Width="49" Click="btnGrid_Click" FontFamily="Candara" ToolTip="Hide/show grid">
                             <StackPanel>
-                                <Image Source="images/hideGrid.png" Width="38" Height="38" Margin="0"/>
+                                <Image Source="../images/hideGrid.png" Width="38" Height="38" Margin="0"/>
                             </StackPanel>
                         </Button>
                         <Button Height="49" Margin="0,0,5,0" HorizontalAlignment="Left" Name="btnArrangeModel" VerticalAlignment="Top" Width="69" Click="btnArrangeModel_Click" FontStretch="Normal" ToolTip="Arrange model" >
@@ -137,20 +137,20 @@
                             <StackPanel Orientation="Horizontal">
                                 <Button x:Name="btnTieToMesh" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="btnTieToMesh_Click" ToolTip="Tie this node to the grid">
                                     <StackPanel>
-                                        <Image Source="images/Mesh.png" Height="27" Width="27">
+                                        <Image Source="../images/Mesh.png" Height="27" Width="27">
                                         </Image>
                                     </StackPanel>
                                 </Button>
                                 <Button x:Name="btnTieToMeshAll" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="btnTieToMeshAll_Click" ToolTip="Tie all nodes to the grid">
                                     <StackPanel>
-                                        <Image Source="images/btn-all-to-mesh.png" Height="27" Width="27">
+                                        <Image Source="../images/btn-all-to-mesh.png" Height="27" Width="27">
                                         </Image>
                                     </StackPanel>
                                 </Button>
 
                                 <Button x:Name="btnTieToMeshAlways" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" Click="btnTieToMeshAlways_Click" ToolTip="Always tie nodes to the grid">
                                     <StackPanel>
-                                        <Image Source="images/btn-always-to-mesh.png" Height="27" Width="27">
+                                        <Image Source="../images/btn-always-to-mesh.png" Height="27" Width="27">
                                         </Image>
                                     </StackPanel>
                                 </Button>
@@ -173,23 +173,23 @@
 
                     <Button Name="btnAddPlace" Height="49" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49" Margin="0,5,0,0" Click="btnAddPlace_Click" ToolTip="Add new place">
                         <StackPanel>
-                            <Image Source="images/btn-add-place.png" Height="30" Width="30" Margin="0"/>
+                            <Image Source="../images/btn-add-place.png" Height="30" Width="30" Margin="0"/>
                         </StackPanel>
                     </Button>
                     <Button Height="49" Name="btnAddTransition" VerticalAlignment="Top" Click="btnAddTransition_Click" Margin="0" HorizontalAlignment="Left" Width="49" ToolTip="Add new transition">
                         <StackPanel>
-                            <Image Source="images/btn-add-transition.png" Height="30" Width="30" Margin="0"/>
+                            <Image Source="../images/btn-add-transition.png" Height="30" Width="30" Margin="0"/>
                         </StackPanel>
                     </Button>
                     <Button Height="49" HorizontalAlignment="Left" Margin="0" Name="btnAddArc" Width="49" Click="btnAddArc_Click" VerticalAlignment="Top" ToolTip="Add new arc">
                         <StackPanel>
-                            <Image Source="images/btn-add-arc.png" Height="30" Width="30" Margin="0">
+                            <Image Source="../images/btn-add-arc.png" Height="30" Width="30" Margin="0">
                             </Image>
                         </StackPanel>
                     </Button>
                     <Button Height="49" HorizontalAlignment="Left" Name="btnAddToken" Width="49" VerticalAlignment="Top" Click="btnAddToken_Click" ToolTip="Add token to a place">
                         <StackPanel>
-                            <Image Source="images/btn-add-token.png" Height="30" Width="30" Margin="0"/>
+                            <Image Source="../images/btn-add-token.png" Height="30" Width="30" Margin="0"/>
                         </StackPanel>
                     </Button>
                     <Button Height="49" Click="btnSetInitialState_Click" Content="Set Initial State" Visibility="Collapsed"  HorizontalAlignment="Left" Name="btnSetInitialState" Width="49" VerticalAlignment="Top" ToolTip="Set initial state">
@@ -198,7 +198,7 @@
                     
                     <Button Name="btnNonOrientedArc" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49" Height="49" Visibility="Collapsed" Click="btnNonOrientedArc_Click">
                         <StackPanel>
-                            <Image Source="images/arc1.png" Height="49" Width="49" Margin="25,-10,0,0">
+                            <Image Source="../images/arc1.png" Height="49" Width="49" Margin="25,-10,0,0">
                                 <Image.RenderTransform>
                                     <RotateTransform Angle="45"/>
                                 </Image.RenderTransform>

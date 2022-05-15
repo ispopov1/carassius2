@@ -18,7 +18,7 @@
                     <StackPanel Name="pnlEditPanel" Orientation="Horizontal" Margin="3">
                         <Button Name="btnSelect" Height="30" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Width="30" Click="btnSelect_Click" ToolTip="Select" Visibility="Collapsed">
                             <StackPanel>
-                                <Image Source="images/cursor_4780.png" Height="20" Width="20" />
+                                <Image Source="../images/cursor_4780.png" Height="20" Width="20" />
                             </StackPanel>
                         </Button>
 
@@ -44,12 +44,12 @@
 
                         <Button Name="btnShowHideLabels" Height="49" HorizontalAlignment="Left" VerticalAlignment="Top" Width="49" Click="btnShowHideLabels_Click" FontFamily="Candara" IsEnabled="False" ToolTip="Hide/show labels on the model">
                             <StackPanel>
-                                <Image Source="images/hideLabels.png" Height="38" Width="38" Margin="0"/>
+                                <Image Source="../images/hideLabels.png" Height="38" Width="38" Margin="0"/>
                             </StackPanel>
                         </Button>
                         <Button Height="49" Margin="0,0,5,0" HorizontalAlignment="Left" Name="btnGrid" VerticalAlignment="Top" Width="49" Click="btnGrid_Click" FontFamily="Candara" ToolTip="Hide/show grid">
                             <StackPanel>
-                                <Image Source="images/hideGrid.png" Width="38" Height="38" Margin="0"/>
+                                <Image Source="../images/hideGrid.png" Width="38" Height="38" Margin="0"/>
                             </StackPanel>
                         </Button>
 
@@ -60,27 +60,27 @@
 
                             <Button Name="btnReset" IsEnabled="False" HorizontalAlignment="Left" Width="49" Height="49" VerticalAlignment="Top" Click="btnReset_Click" ToolTip="Reset to initial marking">
                                 <StackPanel>
-                                    <Image Source="images/tokengame-reset-btn.png" Height="30" Width="30" Margin="3"/>
+                                    <Image Source="../images/tokengame-reset-btn.png" Height="30" Width="30" Margin="3"/>
                                 </StackPanel>
                             </Button>
                             <Button Name="btnOneStepBackSimulate" IsEnabled="False" HorizontalAlignment="Left" Width="49" Height="49" VerticalAlignment="Top" Click="btnOneStepBackSimulate_Click" ToolTip="One step back">
                                 <StackPanel>
-                                    <Image Source="images/tokengame-step-back-btn.png" Height="30" Width="30" Margin="3"/>
+                                    <Image Source="../images/tokengame-step-back-btn.png" Height="30" Width="30" Margin="3"/>
                                 </StackPanel>
                             </Button>
                             <Button Name="btnStop" HorizontalAlignment="Left" VerticalAlignment="Top" IsEnabled="False" Width="49" Height="49" Click="btnStop_Click" ToolTip="Pause">
                                 <StackPanel>
-                                    <Image Source="images/tokengame-stop-btn.png" Height="30" Width="30" Margin="3"/>
+                                    <Image Source="../images/tokengame-stop-btn.png" Height="30" Width="30" Margin="3"/>
                                 </StackPanel>
                             </Button>
                             <Button Name="btnOneStepSimulate" Click="btnOneStepSimulate_Click" HorizontalAlignment="Left" Width="49" Height="49" VerticalAlignment="Top" ToolTip="One step forward" IsEnabled="False">
                                 <StackPanel>
-                                    <Image Source="images/tokengame-step-btn.png" Height="30" Width="30" Margin="3"/>
+                                    <Image Source="../images/tokengame-step-btn.png" Height="30" Width="30" Margin="3"/>
                                 </StackPanel>
                             </Button>
                             <Button Name="btnSimulate" HorizontalAlignment="Left" Width="49" Click="btnSimulate_Click" Height="49" VerticalAlignment="Top" ToolTip="Start token game" IsEnabled="False">
                                 <StackPanel>
-                                    <Image Source="images/tokengame-play-btn.png" Height="30" Width="30" Margin="3"/>
+                                    <Image Source="../images/tokengame-play-btn.png" Height="30" Width="30" Margin="3"/>
                                 </StackPanel>
                             </Button>
 
@@ -208,12 +208,12 @@
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom">
                             <Button HorizontalAlignment="Left" Background="Transparent" BorderThickness="0" Margin="0" VerticalAlignment="Top" x:Name="btnZoomMinus" Width="30" Height="30" Click="btnZoomMinus_Click" ToolTip="Zoom out">
                                 <StackPanel>
-                                    <Image Source="images/minus.png" Width="20" Height="20"/>
+                                    <Image Source="../images/minus.png" Width="20" Height="20"/>
                                 </StackPanel>
                             </Button>
                             <Button HorizontalAlignment="Left" Background="Transparent" BorderThickness="0" Margin="0" x:Name="btnZoomPlus" VerticalAlignment="Top" Width="30" Height="30" Click="btnZoomPlus_Click" ToolTip="Zoom in">
                                 <StackPanel>
-                                    <Image Source="images/plus.png" Width="20" Height="20" />
+                                    <Image Source="../images/plus.png" Width="20" Height="20" />
                                 </StackPanel>
                             </Button>
                         </StackPanel>

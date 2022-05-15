@@ -105,82 +105,82 @@
     <Compile Include="Model\VPetriNet.cs" />
     <Compile Include="Model\PetriNetNode.cs" />
     <Compile Include="Model\ShadowCopyList.cs" />
-    <Compile Include="ImportExport\BitmapExporter.cs" />
-    <Compile Include="ModelArrange\PetriNetColumnAndGraphForceBasedGeneralArranger.cs" />
-    <Compile Include="ModelArrange\IArranger.cs" />
-    <Compile Include="PropertyControls\IdProperty.xaml.cs">
+    <Compile Include="Controllers\ImportExport\BitmapExporter.cs" />
+    <Compile Include="Controllers\ModelArrange\PetriNetColumnAndGraphForceBasedGeneralArranger.cs" />
+    <Compile Include="Controllers\ModelArrange\IArranger.cs" />
+    <Compile Include="Controllers\PropertyControls\IdProperty.xaml.cs">
       <DependentUpon>IdProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PropertyControls\LabelProperty.xaml.cs">
+    <Compile Include="Controllers\PropertyControls\LabelProperty.xaml.cs">
       <DependentUpon>LabelProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PropertyControls\WeightProperty.xaml.cs">
+    <Compile Include="Controllers\PropertyControls\WeightProperty.xaml.cs">
       <DependentUpon>WeightProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PropertyControls\PriorityProperty.xaml.cs">
+    <Compile Include="Controllers\PropertyControls\PriorityProperty.xaml.cs">
       <DependentUpon>PriorityProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PropertyControls\NumberOfTokensProperty.xaml.cs">
+    <Compile Include="Controllers\PropertyControls\NumberOfTokensProperty.xaml.cs">
       <DependentUpon>NumberOfTokensProperty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PropertyControls\PropertyEditorBase.cs" />
-    <Compile Include="Util\MathUtil.cs" />
-    <Compile Include="Util\ModelUtil.cs" />
-    <Compile Include="Util\VisUtil.cs" />
-    <Page Include="PNEditorAbout.xaml">
+    <Compile Include="Controllers\PropertyControls\PropertyEditorBase.cs" />
+    <Compile Include="Controllers\Util\MathUtil.cs" />
+    <Compile Include="Controllers\Util\ModelUtil.cs" />
+    <Compile Include="Controllers\Util\VisUtil.cs" />
+    <Page Include="Views\PNEditorAbout.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PNEditorControl.xaml">
+    <Page Include="Views\PNEditorControl.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Command.cs" />
     <Compile Include="FiguresMethods.cs" />
-    <Compile Include="ImportExport\GraphML.cs" />
+    <Compile Include="Controllers\ImportExport\GraphML.cs" />
     <Compile Include="Model\IModel.cs" />
-    <Compile Include="PNEditorAbout.xaml.cs">
+    <Compile Include="Views\PNEditorAbout.xaml.cs">
       <DependentUpon>PNEditorAbout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PNEditorControlCutCopyPaste.cs" />
-    <Compile Include="PNEditorControlMainMenu.cs" />
-    <Compile Include="PNEditorControlUndoRedo.cs" />
-    <Compile Include="ImportExport\Pnml.cs" />
-    <Compile Include="PNEditorControl.xaml.cs">
+    <Compile Include="Controllers\PNEditorControlCutCopyPaste.cs" />
+    <Compile Include="Controllers\PNEditorControlMainMenu.cs" />
+    <Compile Include="Controllers\PNEditorControlUndoRedo.cs" />
+    <Compile Include="Controllers\ImportExport\Pnml.cs" />
+    <Compile Include="Views\PNEditorControl.xaml.cs">
       <DependentUpon>PNEditorControl.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="PNtoTeXSettings.xaml">
+    <Page Include="Views\PNtoTeXSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PropertyControls\IdProperty.xaml">
+    <Page Include="Controllers\PropertyControls\IdProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PropertyControls\LabelProperty.xaml">
+    <Page Include="Controllers\PropertyControls\LabelProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PropertyControls\WeightProperty.xaml">
+    <Page Include="Controllers\PropertyControls\WeightProperty.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="PropertyControls\PriorityProperty.xaml">
+    <Page Include="Controllers\PropertyControls\PriorityProperty.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="PropertyControls\NumberOfTokensProperty.xaml">
+    <Page Include="Controllers\PropertyControls\NumberOfTokensProperty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ImportExport\PNtoTex.cs" />
-    <Compile Include="PNtoTeXSettings.xaml.cs">
+    <Compile Include="Controllers\ImportExport\PNtoTex.cs" />
+    <Compile Include="Views\PNtoTeXSettings.xaml.cs">
       <DependentUpon>PNtoTeXSettings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Properties.cs" />
+    <Compile Include="Controllers\Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
